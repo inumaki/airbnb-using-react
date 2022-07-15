@@ -1,0 +1,146 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+height:100vh;
+
+  
+}
+
+
+.navbar
+{
+
+    display: flex;
+    color:rgb(243, 91, 121);
+    font-weight: 700;
+    letter-spacing: 1px;
+    align-items: center;
+    min-width: 100%;
+padding: 10px;
+box-shadow: 0px 3px 7px rgb(230, 227, 227);
+}
+.navbar img
+{
+
+margin-left: 15px;
+height:30px;
+}
+.navbar p
+{
+    margin-left: 3px;
+}
+.imagesec
+{
+ display: flex;
+justify-content: center;
+}
+.imagesec img
+{
+    margin:20px  0px; 
+       max-width:500px;
+    
+    
+}
+.lowersec
+{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.lowersec h1
+{
+    font-weight: 500;
+}
+.lowersec p{
+margin-top: 10px;
+font-size: small;
+color:rgb(95, 95, 95)
+}
+.bottom
+{
+    width:100%;
+}
+.makecard
+{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    max-width:200px;
+}
+.displayimg
+{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.starlogo
+{
+   
+    height: 15px;
+   width:15px;
+
+}
+
+
+.ratings
+{
+    display: flex;
+    margin:2px;
+    font-size:small;
+}
+.ratings p
+{
+    margin-left: 2px;
+}
+.makecard h4
+{
+    font-size:small;
+    font-weight: 500;
+}
+.makecard h5
+{
+    font-size: small;
+    font-weight:500;
+}
+span
+{
+    font-weight: 300;
+}
+.cardcontainer
+{
+    display: flex;
+  
+}
+@media screen and (max-width: 480px)
+    {
+.cardcontainer
+{
+    display: flex;
+    flex-direction:column;
+}
+    }
+
+    
+
+.status
+{
+
+position: absolute;
+font-size:xx-small;
+font-weight: 300;
+background-color: whitesmoke;
+border-radius: 5px;
+top:3px;
+left:25px;
+padding: 1px;
+
+}
